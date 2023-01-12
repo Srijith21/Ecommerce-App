@@ -9,7 +9,7 @@ import HomeBottom from '../components/HomeBottom';
 const HomeScreen = ({navigation}) => (
   <Fragment>
     <ScrollView>
-      <Hometop />
+      <Hometop navigation={navigation} />
       <CategoryCardSection />
       <FlashsaleHead navigation={navigation} />
       <FlashsaleCards />

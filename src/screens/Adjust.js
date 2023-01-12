@@ -1,17 +1,24 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import React from 'react';
+import LeftArrow from '../assets/leftarrow-b.svg';
 
-const ProfileScreen = ({navigation}) => {
+const Adjust = ({navigation}) => {
   return (
     <>
       <View style={styles.contentbox}>
-        <Text style={styles.messagetext}>PROFILE</Text>
+        <Text style={styles.messagetext}>ADJUST </Text>
+      </View>
+      <View style={styles.backbutton}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <LeftArrow width={30} height={30} />
+        </TouchableOpacity>
       </View>
     </>
   );
 };
 
-export default ProfileScreen;
+export default Adjust;
+
 const styles = StyleSheet.create({
   messagetext: {
     color: 'red',

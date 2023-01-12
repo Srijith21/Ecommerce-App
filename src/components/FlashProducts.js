@@ -1,11 +1,4 @@
-import {
-  FlatList,
-  StyleSheet,
-  Text,
-  View,
-  TouchableOpacity,
-  Image,
-} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
 import React from 'react';
 import WhiteBag from '../assets/bag-y.svg';
 
@@ -65,14 +58,14 @@ const styles = StyleSheet.create({
   },
   discount: {
     backgroundColor: '#EBA352',
-    width: 50,
+    width: 45,
     borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
     padding: 3,
     position: 'absolute',
     left: 6,
-    top: 10,
+    top: 8,
     zIndex: 1,
   },
   discountText: {
@@ -91,7 +84,7 @@ const styles = StyleSheet.create({
     color: '#000000',
   },
   pricenew: {
-    fontSize: 25,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#EBA352',
   },

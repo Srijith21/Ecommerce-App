@@ -1,10 +1,16 @@
-import {View, Text, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Touchable,
+  TouchableOpacity,
+} from 'react-native';
 import React from 'react';
 
 import MessageIcon from '../assets/message-not-b.svg';
 import BellIcon from '../assets/bell-b.svg';
 
-const Hometop = () => {
+const Hometop = ({navigation}) => {
   return (
     <View>
       <View style={styles.tophead}>
@@ -12,8 +18,12 @@ const Hometop = () => {
           <Text style={styles.smallhead}>Shopline</Text>
         </View>
         <View style={styles.topheadrightbox}>
-          <MessageIcon />
-          <BellIcon />
+          <TouchableOpacity onPress={() => navigation.navigate('Message')}>
+            <MessageIcon />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
+            <BellIcon />
+          </TouchableOpacity>
         </View>
       </View>
     </View>

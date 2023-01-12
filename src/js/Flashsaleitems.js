@@ -25,9 +25,9 @@ export const Flashsaleitems = [
   },
   {
     id: 3,
-    item_name: 'Keychron Q1 QMK',
-    item_pricenew: '169.00',
-    item_priceold: '179.00',
+    item_name: 'Apple Watch 7',
+    item_pricenew: '260.00',
+    item_priceold: '269.00',
     item_sold: '236',
     image: require('../assets/applewatch.jpg'),
     bg_color: '#666666',

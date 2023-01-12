@@ -1,11 +1,4 @@
-import {
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  FlatList,
-  SafeAreaView,
-} from 'react-native';
+import {StyleSheet, View, Text, FlatList, SafeAreaView} from 'react-native';
 import React from 'react';
 
 import FlashTop from '../components/FlashTop';
@@ -37,18 +30,6 @@ const FlashSale = ({navigation}) => {
           return <FlashProducts item={item} />;
         }}
       />
-
-      {/* <ScrollView>
-        <FlashTop navigation={navigation} />
-        <View style={styles.endsIn}>
-          <Text style={styles.endsInText}>Ends In</Text>
-          <Time style={styles.time} />
-        </View>
-      </ScrollView>
-      <FlashCat />
-      <ScrollView nestedScrollEnabled={true}>
-        <FlashProducts />
-      </ScrollView> */}
     </SafeAreaView>
   );
 };

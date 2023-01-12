@@ -22,6 +22,9 @@ import BagBlack from './src/assets/Bag-b.svg';
 import BagGrey from './src/assets/Bag-g.svg';
 import ProfileBlack from './src/assets/profile-b.svg';
 import ProfileGrey from './src/assets/profile-g.svg';
+import Message from './src/screens/Message';
+import Notification from './src/screens/Notification';
+import Adjust from './src/screens/Adjust';
 
 const App = () => {
   const Tab = createBottomTabNavigator();
@@ -93,6 +96,21 @@ const App = () => {
         <HomeStack.Screen
           name="FlashSaleScreen"
           component={FlashSale}
+          options={{headerShown: false}}
+        />
+        <HomeStack.Screen
+          name="Message"
+          component={Message}
+          options={{headerShown: false}}
+        />
+        <HomeStack.Screen
+          name="Notification"
+          component={Notification}
+          options={{headerShown: false}}
+        />
+        <HomeStack.Screen
+          name="Adjust"
+          component={Adjust}
           options={{headerShown: false}}
         />
       </HomeStack.Navigator>

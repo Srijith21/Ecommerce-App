@@ -14,7 +14,9 @@ const FlashTop = ({navigation}) => {
           <BackArrow style={styles.backarrow} />
         </TouchableOpacity>
         <Text style={styles.flashsalehead}>Flash Sale</Text>
-        <Adjust style={styles.adjust} />
+        <TouchableOpacity onPress={() => navigation.navigate('Adjust')}>
+          <Adjust style={styles.adjust} />
+        </TouchableOpacity>
       </View>
       <View style={styles.adsection}>
         <View style={styles.ad_textbox}>
