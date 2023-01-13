@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
   },
   flashsalehead: {
     flex: 4,
+    fontFamily: 'Gordita Bold',
     fontSize: 24,
-    fontWeight: 'bold',
     textAlign: 'center',
     color: 'black',
   },
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     padding: 10,
     color: '#9747FF',
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold italic',
   },
   ad_image: {
     width: 150,

@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
   },
   endsInText: {
     fontSize: 25,
-    fontWeight: 'bold',
     color: 'black',
+    fontFamily: 'Gordita Bold italic',
   },
   time: {
     flex: 2,

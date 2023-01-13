@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   smallhead: {
     fontSize: 33,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold',
     color: 'black',
   },
 });

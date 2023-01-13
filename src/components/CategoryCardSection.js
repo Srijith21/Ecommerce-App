@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: 10,
     fontSize: 16,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Regular italic',
     color: 'black',
   },
   cards: {

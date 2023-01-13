@@ -2,12 +2,6 @@ import {StyleSheet, Text, View, FlatList, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {FlashCategories} from '../js/FlashCategories';
 
-// const FlashCategoriesitems = ({item}) => {
-//   <View>
-//     <Text>{item.name}aa</Text>;
-//   </View>;
-// };
-
 const FlashCategoriesitems = ({item}) => (
   <View style={styles.category}>
     <TouchableOpacity style={styles.categories}>
@@ -47,5 +41,6 @@ const styles = StyleSheet.create({
   categorytext: {
     color: 'black',
     fontSize: 15,
+    fontFamily: 'Gordita Bold italic',
   },
 });

@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Gordita Black.otf",
+      "sha1": "261f8880eac1f07080756c82788ed202f383e1a3"
+    },
+    {
+      "path": "assets/fonts/Gordita Bold Italic.otf",
+      "sha1": "8b3cb6ec88f5f53307597f5773e438227f5533d0"
+    },
+    {
+      "path": "assets/fonts/Gordita Bold.otf",
+      "sha1": "3fcdcfe21bc92ce2eb8006daf5793e5652d09c75"
+    },
+    {
+      "path": "assets/fonts/Gordita Light.otf",
+      "sha1": "0d6eecf59e7a6e4bd4a157187a0e0849e9d0f80d"
+    },
+    {
+      "path": "assets/fonts/Gordita Regular Italic.otf",
+      "sha1": "ab7e0f7a2dd64ae91a04de4e46738b651a0bca05"
+    },
+    {
+      "path": "assets/fonts/Gordita Regular.otf",
+      "sha1": "3982ae21f4d084caaf453830d96250e18ff081b9"
+    },
+    {
+      "path": "assets/fonts/Gorditas-Bold.ttf",
+      "sha1": "b99424a885f19925fc61ca37e03b2de357d776f9"
+    },
+    {
+      "path": "assets/fonts/Gorditas-Regular.ttf",
+      "sha1": "5ff4542b7c5cfc21895518c03019583675d38e28"
+    }
+  ]
+}
