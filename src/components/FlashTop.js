@@ -4,7 +4,6 @@ import React from 'react';
 import BackArrow from '../assets/leftarrow-b.svg';
 import Adjust from '../assets/adjust-b.svg';
 import Calendor from '../assets/calender-b.svg';
-// import YClock from '../assets/clock-y.svg';
 
 const FlashTop = ({navigation}) => {
   return (

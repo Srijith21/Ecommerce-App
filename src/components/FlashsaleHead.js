@@ -7,7 +7,6 @@ import {
 } from 'react-native';
 import React from 'react';
 
-// import YClock from '../assets/clock-y.svg';
 import Time from './Time';
 
 const FlashsaleHead = ({navigation}) => {
@@ -49,7 +48,7 @@ const styles = StyleSheet.create({
   flashsalehead: {
     flex: 1,
     fontSize: 23,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold',
     color: 'black',
     padding: 7,
     textAlign: 'center',
@@ -61,9 +60,10 @@ const styles = StyleSheet.create({
     color: 'orange',
     textAlign: 'center',
     fontSize: 15,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold',
   },
   linktext: {
     fontSize: 16,
+    fontFamily: 'Gordita Regular',
   },
 });

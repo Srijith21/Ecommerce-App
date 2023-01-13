@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   },
   productname: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold',
     padding: 10,
     margin: 3,
     color: 'black',
@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
     fontSize: 23,
     flex: 1,
     color: 'black',
+    fontFamily: 'Gordita Bold ',
   },
   productprice2: {
     fontSize: 14,

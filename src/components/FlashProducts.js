@@ -74,10 +74,10 @@ const styles = StyleSheet.create({
     fontFamily: 'Gordita Regular',
   },
   imagebox: {
-    width: '25%',
+    width: '22%',
   },
   detailContainer: {
-    width: '45%',
+    width: '48%',
   },
   productname: {
     fontFamily: 'Gordita Regular',
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   pricenew: {
     fontSize: 22,
-    fontWeight: 'bold',
+    fontFamily: 'Gordita Bold',
     color: '#EBA352',
   },
   priceold: {
@@ -123,7 +123,6 @@ const styles = StyleSheet.create({
     color: '#EBA352',
     fontSize: 12,
     fontFamily: 'Gordita Regular italic',
-
   },
   buttonContainer: {
     width: '30%',
